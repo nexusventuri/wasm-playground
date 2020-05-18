@@ -2,7 +2,7 @@
 
 if ! [ -x "$(command -v emcc)" ]; then
   echo 'emcc is not installed, please follow the installation instructions here:' >&2
-  echo 'https://webassembly.org/getting-started/developers-guide/' >&2
+  echo 'https://emscripten.org/docs/getting_started/downloads.html' >&2
   exit 1
 fi
 
